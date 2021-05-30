@@ -1,0 +1,18 @@
+@import "../../../assets/styles/variables";
+
+.p-employees {
+    display: flex;
+
+    .employees__left {
+        width: 60%;
+    }
+
+    .employees__right {
+        width: 40%;
+    }
+
+    .employees__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

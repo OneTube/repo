@@ -1,0 +1,14 @@
+@import "../../../assets/styles/variables";
+
+.o-calendar {
+    display: flex;
+    flex-wrap: wrap;
+
+    .calendar__item {
+        box-sizing: border-box;
+        flex: 0 0 100%;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 0 0 4px $black;
+    }
+}

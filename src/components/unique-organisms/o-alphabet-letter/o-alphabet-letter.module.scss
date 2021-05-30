@@ -1,0 +1,37 @@
+@import "../../../assets/styles/variables";
+
+.m-alphabet-letter {
+    flex: 0 0 calc(25% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 4px $black;
+
+    dt {
+        font-weight: bold;
+    }
+
+    .alphabet-letter__collapse {
+        cursor: pointer;
+        display: flex;
+        align-items: baseline;
+
+        &:hover {
+            background-color: rgba($black, .1);
+        }
+    }
+
+    .alphabet-letter__icon {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+
+    .alphabet-letter__icon--active {
+        color: $blue;
+    }
+
+    .alphabet-letter__ctx {
+        padding-left: 25px;
+    }
+}
